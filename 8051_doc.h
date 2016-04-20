@@ -2,8 +2,6 @@
 REG51.H
 
 Header file for generic 80C51 and 80C31 microcontroller.
-Copyright (c) 1988-2002 Keil Elektronik GmbH and Keil Software, Inc.
-All rights reserved.
 --------------------------------------------------------------------------*/
 
 #ifndef __REG51_H__
@@ -89,3 +87,7 @@ sbit TI   = 0x99;
 sbit RI   = 0x98;
 
 #endif
+------------------------------------------
+basic interface for 8051.
+https://electrosome.com/interfacing-lcd-with-8051-using-keil-c-at89c51/
+best pdf for embedded c
