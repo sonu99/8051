@@ -91,3 +91,5 @@ sbit RI   = 0x98;
 basic interface for 8051.
 https://electrosome.com/interfacing-lcd-with-8051-using-keil-c-at89c51/
 best pdf for embedded c
+http://vili.pmmf.hu/~zamek/c/8751/9629913.pdf
+http://what-when-how.com/8051-microcontroller/serial-port-programming-in-c/
