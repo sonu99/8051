@@ -1,0 +1,1 @@
+http://www.8051projects.net/wiki/I2C_Implementation_on_8051
