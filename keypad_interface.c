@@ -1,3 +1,4 @@
+//please use this link for more details..https://electrosome.com/interfacing-keypad-8051-microcontroller-keil-c/
 #include<reg52.h> //including sfr registers for ports of the controller
 #include<lcd.h>
 
