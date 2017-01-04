@@ -3,6 +3,69 @@
 Memory
 >>>>>>>>>
 
+HDD:-
+RAM:- Filip flop
+RAOM:- Programable logic device...fusing the connection of gate.
+
+SSD:
++++++++
+
+A typical SSD uses what is called NAND-based flash memory. This is a non-volatile type of memory.
+What does non-volatile mean you ask? The simple answer is that you can turn off the disk and it won’t “forget” what was stored on it. 
+This is of course an essential characteristic of any type of permanent memory. 
+During the early days of SSD, rumors floated around saying stored data would wear off and be lost after only a few years.
+Regardless, that rumor is certainly not true with today’s technology, 
+as you can read and write to an SSD all day long and the data storage integrity will be maintained for well over 200 years.
+In other words, the data storage life of an SSD can outlive you!
+
+The connector used for these standard sizes is SATA. 
+There are smaller SSDs available that use what’s called mini-SATA (mSATA) and fit into the mini-PCI Express slot of a laptop
+
+A solid-state drive isn’t just the same components you’d find crammed into a flash drive or SD card. 
+They have the same type of NAND flash memory chips, sure — but there’s more NAND chips and they tend to be faster, better-quality chips. 
+However, the solid-state drive also contains a controller with a firmware that contains more advanced features. 
+
+HDD:
+++++
+An HDD uses magnetism to store data on a rotating platter.
+A read/write head floats above the spinning platter reading and writing data. 
+The faster the platter spins, the faster an HDD can perform. 
+Typical laptop drives today spin at either 5400 RPM (Revolutions per Minute) or 7200RPM, though some server-based platters spin at
+up to 15,000 RPM!
+
+The major advantage of an HDD is that it is capable of storing lots of data cheaply
+
+eMMC:
++++++
+A MultiMediaCard — also known as MMC — is similar to an SD card. The SD card standard was considered an improvement over MMC,
+so few devices have built-in MMC slots today — you’ll mostly find SD card slots instead. eMMC isn’t just an older type of storage,
+however. While MMC fell by the wayside, the eMMC specification continued to be developed and worked on.
+
+eMMC stands for embedded MultiMediaCard. In other words,
+an eMMC drive isn’t a sophisticated internal drive with speeds and features on par with the SSDs you’d find in typical desktops and 
+laptop computers. Instead, it’s basically a MMC — like an SD card — embedded onto the device’s motherboard. Like SD cards, MMC cards and
+their interfaces are much slower than an SSD. It’s a way to provide cheap internal storage.
+The eMMC device also has a controller that makes the eMMC bootable so it can be used as a system drive inside cheap Android, Windows,
+and Chrome OS tablets and laptops. However, it doesn’t have the firmware, multiple flash memory chips, high-quality hardware, 
+and fast interface that makes a solid-state drive so fast.
+Just as SD cards are much slower than internal SSDs, eMMC storage is much slower than a more sophisticated SSD.
+
+Flash
++++++
+Flash memory is an electronic (solid-state) non-volatile computer storage medium that can be electrically erased and reprogrammed.
+
+Toshiba developed flash memory from EEPROM (electrically erasable programmable read-only memory) in the early 
+1980s and introduced it to the market in 1984. The two main types of flash memory are named after the NAND and NOR logic gates. 
+The individual flash memory cells exhibit internal characteristics similar to those of the corresponding gates.
+
+USB stik and SD card
+++++++++++++++++++++
+Flash memory — typically NAND flash memory — is found in USB flash drives and all the different types of SD cards you’d buy.
+USB flash drives contain a flash memory chip on a printed circuit board (PCB) as well as a basic controller and a USB interface. 
+SD cards contain a flash memory chip on a circuit board along with an SD controller.
+Both SD cards and flash drives aren’t very sophisticated.
+They don’t have the sophisticated firmware or other advanced features you’d find in an SSD.
+They’re generally designed to be as cheap as possible.
 
 SDD vs HDD
 http://www.storagereview.com/ssd_vs_hdd
