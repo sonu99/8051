@@ -84,10 +84,16 @@ http://www.storagereview.com/ssd_vs_hdd
 emmc, SDD,  SC card and USB pendrive
 http://www.howtogeek.com/196541/emmc-vs.-ssd-not-all-solid-state-storage-is-equal/
 
-
+The difference between these two RAMs is nothing but the voltage consumption.
+The DDR3L RAM consumes lesser voltage compared to the DDR3. This reduces heating and enables faster operation.
+Also the lower the operating voltage, (1.35v, 1.25v) the faster the memory can theoretically operate because the transition from a 
+zero to a one state requires less voltage shift. It takes less time to go from zero to 1.25 v than it does to go from zero to 1.5v.
+So the memory cell comes ready sooner.
+The DDR3L RAMs will be compatible only on latest 3rd generation processors.
 
 GPU:
 ++++++
 http://www.nvidia.com/object/what-is-gpu-computing.html
 
 http://techterms.com/definition/gpu
+
