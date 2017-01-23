@@ -1,0 +1,26 @@
+Q> Diffrent operating modes of ARM and x86
+Ans: http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.ddi0210c/Cihhcjia.html
+total 7 modes 
+   Mode              Mode identifier
+
+1> User              usr
+
+2> Fast interrupt    fiq
+
+3> Interrupt         irq
+
+4> Supervisor        svc
+
+5> Abort             abt
+
+6> System            sys
+
+7> Undefined         und
+
+Q> can we can select multiple slave at same time in SPI?
+Q> speed of I2c and SPI
+Q> how cpu will change it's mode depending on user space and kernel space instruction?
+Ans: http://stackoverflow.com/questions/8199609/arm-modes-user-and-system
+    
+Q> if we are calling system call from user space then how it will map to kernel space...and how it will change the kernel mode and ARM mode?
+Q> 
