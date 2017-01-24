@@ -16,11 +16,26 @@ total 7 modes
 6> System            sys
 
 7> Undefined         und
+http://www.cs.otago.ac.nz/cosc440/readings/arm-syscall.pdf
+http://blog.techveda.org/arm-linux-booting-process/
 
 Q> can we can select multiple slave at same time in SPI?
+Ans: no, we can't because we are having only 1 shift register, so it can serve data to 1 slave at a time.
 Q> speed of I2c and SPI
+Ans: I2C:
+     The data rate has to be chosen between 100 kbps, 400 kbps and 3.4 Mbps, respectively called standard mode, 
+     fast mode and high speed mode.
+     Some I²C variants include 10 kbps (low speed mode) and 1 Mbps (fast mode +) as valid speeds.
+     
+     SPI:upto 1 Mb or 10 mb
+     
+     Both single-master and multi-master protocols are possible in SPI.
+     But the multi-master bus is rarely used and look awkward, and are usually limited to a single slave.
+     http://www.eeherald.com/section/design-guide/esmod12.html
+     
 Q> how cpu will change it's mode depending on user space and kernel space instruction?
 Ans: http://stackoverflow.com/questions/8199609/arm-modes-user-and-system
     
-Q> if we are calling system call from user space then how it will map to kernel space...and how it will change the kernel mode and ARM mode?
+Q> if we are calling system call from user space then how it will map to kernel space..
+.and how it will change the kernel mode and ARM mode?
 Q> 
