@@ -38,4 +38,4 @@ Ans: http://stackoverflow.com/questions/8199609/arm-modes-user-and-system
     
 Q> if we are calling system call from user space then how it will map to kernel space..
 .and how it will change the kernel mode and ARM mode?
-Q> 
+Q> if we are connecting pendrive and how it is mounting on file system?
