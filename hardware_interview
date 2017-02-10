@@ -35,6 +35,14 @@ Ans: I2C:
      
 Q> how cpu will change it's mode depending on user space and kernel space instruction?
 Ans: http://stackoverflow.com/questions/8199609/arm-modes-user-and-system
+
+please update the The current status (CPSR) is saved (to the supervisor SPSR)
+MRS    R0, CPSR          ; load CPSR into R0
+ BIC    R0, R0, #&1F      ; clear mode field
+ ORR    R0, R0, #&10      ; user mode code
+ MSR    SPSR, R0          ; store modified CPSR into SPSR
+
+ MOVS   PC, LR      
     
 Q> if we are calling system call from user space then how it will map to kernel space..
 .and how it will change the kernel mode and ARM mode?
