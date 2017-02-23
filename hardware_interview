@@ -47,3 +47,5 @@ MRS    R0, CPSR          ; load CPSR into R0
 Q> if we are calling system call from user space then how it will map to kernel space..
 .and how it will change the kernel mode and ARM mode?
 Q> if we are connecting pendrive and how it is mounting on file system?
+
+Q> How driver will genrate the interupt to user space
